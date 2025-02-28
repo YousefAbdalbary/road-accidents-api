@@ -9,7 +9,7 @@ app = FastAPI()
 model = joblib.load("api/model.pkl")
 power_transformer = joblib.load("api/power_transformer.pkl")
 scaler = joblib.load("api/scaler.pkl")
-label_encoders = joblib.load("api/label_encoders.pkl")  # ✅ تحميل `LabelEncoders`
+label_encoders = joblib.load("api/label_encoders.pkl")  
 
 
 prediction_mapping = {

@@ -1,1 +1,17 @@
 
+
+---
+
+#### ✅ **`requirements.txt`**
+```txt
+fastapi
+uvicorn
+numpy
+pandas
+scikit-learn
+joblib
+imblearn
+xgboost
+plotly
+matplotlib
+seaborn
